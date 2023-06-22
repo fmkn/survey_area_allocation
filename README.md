@@ -16,4 +16,4 @@ Allocates surveyors to survey areas based on TTC algorithm.
 Rewrites the circulation of the innermost list into a representation of two pairs.
 
 ## map_investigators_and_survey_areas.py
-Reads data from three text files, ttc_cycle_pairs.txt, investigator_locations.txt, and survey_area_locations.txt, and create a KML file. The KML file displays surveyors and survey areas on a map, with lines connecting corresponding surveyors and survey areas. The lines are color-coded based on the distance between them.
+Reads data from three text files, `ttc_cycle_pairs.txt`, `investigator_locations.txt`, and `survey_area_locations.txt`, and create a KML file. The KML file displays surveyors and survey areas on a map, with lines connecting corresponding surveyors and survey areas. The lines are color-coded based on the distance between them.
