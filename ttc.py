@@ -50,6 +50,10 @@ def ttc_algorithm(preference_dict: dict):
                     if edge_name in preference_dict[key]:
                         preference_dict[key].remove(edge_name)
         # end removing edges from preference dict
+
+    with open('result_cycles.txt', 'w') as f:
+        f.write(str(result_cycles_list))
+
     return result_cycles_list
 
 if __name__ == "__main__":
