@@ -11,3 +11,6 @@ The script calculates the geodetic distance between each surveyor and each surve
 
 ## ttc.py
 Allocates surveyors to survey areas based on TTC algorithm.
+
+## cycle_pairs.py
+Rewrites the circulation of the innermost list into a representation of two pairs.
