@@ -17,3 +17,7 @@ Rewrites the circulation of the innermost list into a representation of two pair
 
 ## map_investigators_and_survey_areas.py
 Reads data from three text files, `ttc_cycle_pairs.txt`, `investigator_locations.txt`, and `survey_area_locations.txt`, and create a KML file. The KML file displays surveyors and survey areas on a map, with lines connecting corresponding surveyors and survey areas. The lines are color-coded based on the distance between them.
+
+## triangle_analysis.py
+Create an auxiliary kml for reconstituting into one group of three survey wards.
+You may try this script if you have three times as many survey areas as surveyors.
