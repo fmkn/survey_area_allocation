@@ -21,3 +21,6 @@ Reads data from three text files, `ttc_cycle_pairs.txt`, `investigator_locations
 ## triangle_analysis.py
 Create an auxiliary kml for reconstituting into one group of three survey wards.
 You may try this script if you have three times as many survey areas as surveyors.
+
+### sort_groups.py
+Read groups.txt and print group number based on the last three columns
