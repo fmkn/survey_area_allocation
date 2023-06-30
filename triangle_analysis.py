@@ -57,9 +57,14 @@ def is_sliver(a,b,c):
 def process_data():
     
     with open('original_survey_area_locations.txt','r') as f:
-        data=[tuple(map(float,line.strip().split(','))) for line in f if not line.startswith('x')]
+        data = []
+        data_dict = {}
+        for i, line in enumerate(f):
+            if not line.startswith('x'):
+                point = tuple(map(float, line.strip().split(',')))
+                data.append(point)
+                data_dict[point] = i + 1
     
-    data_dict={point: i+1 for i , point in enumerate(data)}
     best_groups=[]
     best_discarded_points=[]
     
